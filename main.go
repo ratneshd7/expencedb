@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/ratneshd7/expencedb/apictrl"
+)
 
 func main() {
-	fmt.Println("inside mai")
+	fmt.Println("inside main")
+	apictrl.Router()
 }
